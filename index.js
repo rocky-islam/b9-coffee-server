@@ -17,9 +17,7 @@ app.listen(port, ()=>{
     console.log('server running on port', port)
 })
 
-//rockyislam1
-//FbvOFQLwsEEWuXWL
-console.log(process.env.DB_USER, process.env.PASS )
+
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.PASS}@cluster0.bhp2qs5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
